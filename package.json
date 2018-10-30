@@ -1,0 +1,35 @@
+{
+  "author": "Jacob Smith <3012099+jshado1@users.noreply.github.com>",
+  "bugs": {
+    "url": "https://github.com/jsmith-sapient/ssr-storage/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "esm": "^3.0.0",
+    "http-server": "^0.11.1",
+    "mocha": "^5.2.0",
+    "sinon": "^6.0.1",
+    "sinon-chai": "^3.2.0"
+  },
+  "description": "Cookie and WebStorage polyfill for use in server-side rendering.",
+  "homepage": "https://github.com/jsmith-sapient/ssr-storage#readme",
+  "keywords": [
+    "Cookies",
+    "LocalStorage",
+    "NodeJS",
+    "SessionStorage",
+    "WebStorage"
+  ],
+  "license": "MIT",
+  "main": "src/index.mjs",
+  "name": "ssr-storage",
+  "repository": "github:jsmith-sapient/ssr-storage",
+  "scripts": {
+    "demo:node": "node --experimental-modules ./demos/es.mjs",
+    "test": "mocha -r esm ./src/**/*.spec.js"
+  },
+  "version": "1.0.0"
+}
